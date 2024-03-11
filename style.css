@@ -1,0 +1,187 @@
+body {
+    
+    background: linear-gradient(100deg,#7b4397 , #dc2430);
+}
+
+.para{
+    color: aliceblue;
+}
+
+#atm-card{
+    display: none;
+    position: absolute;
+    left: 38%;
+    top: 445px;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0");
+    background-repeat: no-repeat;
+    width: 24%;
+    height: 230px;
+    border-radius: 20px;
+}
+#slash{
+    position: absolute;
+    top: 135px;
+    left: 185px;
+    font-size: 25px;
+}
+.input-box {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(100deg,#eecda3,#ef629f);
+    height: 415px;
+    width: 30%;
+    align-items: center;
+    
+}
+
+.input-field {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#input {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:200px;
+    color: grey;
+    height: 30px;
+    border-color: transparent;
+    
+}
+
+#card-holder-input{
+
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:200px;
+    color: gray;
+    height: 30px;
+    border-color: transparent;
+}
+
+#card {
+    
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:200px;
+    color: gray;
+    height: 30px;
+    border-color: transparent;
+
+}
+
+#month-input {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:200px;
+    color: gray;
+    height: 30px;
+    border-color: transparent;
+}
+
+#year-input{
+  
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:200px;
+    color: gray;
+    height: 30px;
+    border-color: transparent;
+
+}
+
+#btn{
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 210px;
+    background: linear-gradient(#ff512f , #dd2476);
+    color: white;
+    height: 30px;
+    position: absolute;
+    left: 43%;
+
+}
+
+#btn:hover{
+    letter-spacing: 3px;
+    opacity: .8;
+}
+
+.chip {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.logo {
+    height: 25px;
+}
+
+#bank-logo{
+    position: absolute;
+    top:10px;
+    left:20px
+
+}
+#bank{
+    position: absolute;
+    top:15px;
+    left:60px;
+    color: white;
+    text-transform: uppercase;
+}
+#img{
+    position: absolute;
+    top:50px;
+    left:20px;
+
+
+}
+#card-holder-name{
+    position: absolute;
+    top:195px;
+    left:20px;
+    color: white;
+    text-transform: uppercase;
+}
+#card-number{
+    position: absolute;
+    top: 115px;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    left:20px;
+    color: white;
+}
+#month {
+    position: absolute;
+    top: 164px;
+    left: 170px;
+    color: white;
+}
+#year {
+    position: absolute;
+    top:164px;
+    left:190px;
+    color: white;
+}
+#expiry{
+    position: absolute;
+    top: 148px;
+    left: 60px;
+}
+.text{
+    color: white;
+    text-transform: uppercase;
+}
+
+#toggle-btn{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 210px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: transparent;
+    height: 30px;
+}
+

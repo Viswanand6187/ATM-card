@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-box">
+        <div class="input-field">
+    <input id="input" type="text" placeholder=" Enter bank name" ><br><br>
+    <input id="card" type="text" maxlength=14 placeholder="Enter your card number"><br><br>
+    <input id="month-input" type="text" maxlength="2" placeholder="Enter your expiry month"><br><br>
+    <input id="year-input" type="text" maxlength="2" placeholder="Enter your expiry year"><br><br>
+    <input id="card-holder-input" type="text" placeholder="Enter card holder name"><br><br>
+    <button type="submit" id="btn" onclick="show()">Submit</button>
+    <button id="toggle-btn" onclick="myFunction()">Hide account number</button>
+        </div>
+    </div>
+        <div id="atm-card">
+            <div class="container">
+            <div id="bank-logo">
+            <img class ="logo" src="https://companieslogo.com/img/orig/INDIANB.NS-a686632c.png?t=1615846835" alt="">
+            </div>
+            <div id="bank">
+            <p id="para1">Enter bank name</p>
+            </div>
+            <div id="img">
+                <img class="chip" src="https://cdn-icons-png.flaticon.com/128/9334/9334627.png" alt="">
+            </div>
+            <div id="card-number">
+                <p id="para2">Enter card number</p>
+            </div>
+            <div id="expiry">
+                <p class="text">Expiry ends</p>
+            </div>
+            <div id="month">
+                <p class="text">Month</p>
+            </div>
+            <div id="slash">
+                <p class="text">/</p>
+            </div>
+            <div id="year">
+                <p class="text">Year</p>
+            </div>
+            <div id="card-holder-name">
+                <p class="text">Enter card holder name</p>
+            </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+    <script src="script.js">
+    </script>
+</body>
+</html>
